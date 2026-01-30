@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <!-- Seamless “temple wallpaper” scrollwork (swirly floral like the reference). -->
+  <!-- Low-contrast orange lines so it reads calm while scrolling. -->
+  <defs>
+    <style>
+      .sw1 { stroke: rgba(255, 140, 26, 0.14); stroke-width: 2.0; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .sw2 { stroke: rgba(255, 140, 26, 0.10); stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .sw3 { stroke: rgba(255, 140, 26, 0.08); stroke-width: 1.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dot { fill: rgba(255, 140, 26, 0.08); }
+      .panel { stroke: rgba(255, 140, 26, 0.06); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Subtle “panel” dividers (like the screenshot columns) -->
+  <path class="panel" d="M0 0v320"/>
+  <path class="panel" d="M160 0v320"/>
+  <path class="panel" d="M320 0v320"/>
+  <path class="panel" d="M0 0h320"/>
+  <path class="panel" d="M0 320h320"/>
+
+  <!-- Big background curls (continuous across edges) -->
+  <path class="sw3" d="M0 80c40-40 80-40 120 0s80 40 120 0 80-40 120 0"/>
+  <path class="sw3" d="M0 240c40-40 80-40 120 0s80 40 120 0 80-40 120 0"/>
+
+  <!-- Primary swirls (left half) -->
+  <path class="sw1" d="M60 60c-40 10-44 58-10 74 30 14 58-8 48-34-8-22-38-20-40 2 0 18 20 20 28 10"/>
+  <path class="sw2" d="M70 160c-44 10-56 58-14 82 34 20 72-8 58-44-10-26-48-26-50 2 0 22 26 24 36 12"/>
+  <path class="sw1" d="M60 260c-40-10-44-58-10-74 30-14 58 8 48 34-8 22-38 20-40-2 0-18 20-20 28-10"/>
+
+  <!-- Primary swirls (right half - mirrored style) -->
+  <path class="sw1" d="M260 60c40 10 44 58 10 74-30 14-58-8-48-34 8-22 38-20 40 2 0 18-20 20-28 10"/>
+  <path class="sw2" d="M250 160c44 10 56 58 14 82-34 20-72-8-58-44 10-26 48-26 50 2 0 22-26 24-36 12"/>
+  <path class="sw1" d="M260 260c40-10 44-58 10-74-30-14-58 8-48 34 8 22 38 20 40-2 0-18-20-20-28-10"/>
+
+  <!-- Center rosette & curls -->
+  <g transform="translate(160 160)">
+    <path class="sw2" d="M0-54c18 12 26 28 24 46-16 6-32 6-48 0-2-18 6-34 24-46Z"/>
+    <path class="sw2" d="M54 0c-12 18-28 26-46 24-6-16-6-32 0-48 18-2 34 6 46 24Z"/>
+    <path class="sw2" d="M0 54c-18-12-26-28-24-46 16-6 32-6 48 0 2 18-6 34-24 46Z"/>
+    <path class="sw2" d="M-54 0c12-18 28-26 46-24 6 16 6 32 0 48-18 2-34-6-46-24Z"/>
+    <circle class="sw3" r="34"/>
+    <circle class="sw3" r="20"/>
+    <g class="dot">
+      <circle cx="0" cy="-72" r="2"/>
+      <circle cx="72" cy="0" r="2"/>
+      <circle cx="0" cy="72" r="2"/>
+      <circle cx="-72" cy="0" r="2"/>
+      <circle cx="50" cy="-50" r="2"/>
+      <circle cx="50" cy="50" r="2"/>
+      <circle cx="-50" cy="50" r="2"/>
+      <circle cx="-50" cy="-50" r="2"/>
+    </g>
+  </g>
+
+  <!-- Additional faint curls (density like the reference) -->
+  <path class="sw3" d="M20 20c24 10 34 34 20 54-12 18-38 18-52 6 12-2 20-8 24-18 6-16-4-32-18-36"/>
+  <path class="sw3" d="M300 20c-24 10-34 34-20 54 12 18 38 18 52 6-12-2-20-8-24-18-6-16 4-32 18-36"/>
+  <path class="sw3" d="M20 300c24-10 34-34 20-54-12-18-38-18-52-6 12 2 20 8 24 18 6 16-4 32-18 36"/>
+  <path class="sw3" d="M300 300c-24-10-34-34-20-54 12-18 38-18 52-6-12 2-20 8-24 18-6 16 4 32 18 36"/>
+</svg>
+
+
+
