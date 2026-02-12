@@ -23,8 +23,8 @@ export function Footer() {
         decoding="async"
       />
       <Container className="relative z-10 py-12">
-        <div className="grid gap-10 md:grid-cols-3 md:gap-x-6 lg:gap-x-8">
-          <div className="pl-28 sm:pl-32 md:pl-12 lg:pl-14">
+        <div className="grid gap-10 md:grid-cols-3 md:gap-x-6 lg:gap-x-8 pr-24 sm:pr-28 md:pr-16 lg:pr-20">
+          <div className="pl-32 sm:pl-40 md:pl-20 lg:pl-24">
             <div className="font-heading text-2xl font-semibold tracking-tight">
               Shree Temple
             </div>

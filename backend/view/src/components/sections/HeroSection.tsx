@@ -13,9 +13,9 @@ export function HeroSection() {
 
   // Put the Krishna hero image in: public/krishna-hero.jpg
   // (Using public URL avoids build-time missing-file errors.)
-  const bgUrl = "/public/krishna-hero.jpg";
+  const bgUrl = "/krishna.jpg";
   // Fallbacks (helps during setup if the filename differs)
-  const bgFallback0 = "/krishna-hero.jpg";
+  const bgFallback0 = "/krishna.jpg";
   const bgFallback1 = "/krishna.jpg";
   const bgFallback2 = "/harinath-temple.jpg";
 
